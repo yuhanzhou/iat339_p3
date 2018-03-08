@@ -1,0 +1,164 @@
+head, body {
+  font-family: 'Raleway', sans-serif;
+}
+
+section{
+	margin: 4rem 0;
+}
+.button_sample{
+	background-color: white;
+	color:black;
+	border:2px solid #273746;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1rem 1rem;
+}
+
+.button_sample:hover{
+	background-color:#273746;
+	color:white;
+}
+/*learn this from W3school*/
+.button_sample:active{
+	background-color: #273746;
+	transform: translateY(2px);
+}
+
+.intext-link{
+
+	text-decoration: none;
+	color: #808B96;
+}
+.intext-link:hover{
+	opacity: 100%;
+	color: #1C2833;
+}
+
+.intext-link:active{
+	color: #1C2833;
+	transform: translateY(2px);
+}
+
+
+input[type=submit]{
+	background-color: #273746;
+	color:white;
+	font-size: 16px;
+	border:2px solid #273746;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1rem 2rem;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	color:black;
+	background-color: white;
+}
+
+input[type=submit]:active{
+	background-color: white;
+	transform: translateY(2px);
+
+}
+
+
+input[type=submit]:focus{
+	outline: 0;
+}
+
+input[type=text]{
+	width:30%;
+	padding: 1rem 1rem;
+	border-color: #ABB2B9  ;
+}
+
+h1{
+	font-size: 3rem;
+	
+}
+
+h2{
+	font-size: 2.5rem;
+	font-weight: lighter;
+}
+
+h3{
+	font-size:1.5rem;
+	font-weight: lighter;
+
+}
+
+p.paragraphStyle{
+	font-size: 1rem;
+	width: 60%;
+	margin-left: 3%;
+	line-height: 1.4;
+}
+
+li{
+	margin: 0.5rem 0;
+	padding-left: 10px;
+}
+
+.nav1{
+
+	width: 200px;
+	display: inline-block;
+	padding: 0;
+}
+ul.nav1{
+	width: 100%;
+	display: inline-block;
+}
+li.nav1{
+	width: 100%;
+	display: inline-block;
+	margin:0;
+
+}
+
+a.navbutton1{
+	background-color: #808B96 ;
+	color:black;
+	text-align: right;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1rem 1rem;
+	width: 100px;
+	transition-property: width;
+	transition-duration: 1s;
+
+}
+a.navbutton1:hover{
+	width: 200px;
+}
+
+a.navbutton2{
+	background-color: #273746 ;
+	color:white;
+	text-align: right;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1rem 1rem;
+	width: 100px;
+	transition-property: width;
+	transition-duration: 1s;
+
+}
+a.navbutton2:hover{
+	width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
