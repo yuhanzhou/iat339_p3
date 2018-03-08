@@ -7,7 +7,7 @@ section{
 }
 
 body{
-	padding-left: 20%;
+	padding-left: 30%;
 }
 .button_sample{
 	background-color: white;
@@ -79,18 +79,21 @@ input[type=text]{
 }
 
 h1{
-	font-size: 3rem;
-	
+	font-size: 3.5rem;
+	font-weight: lighter;
+	text-transform: lowercase;
 }
 
 h2{
 	font-size: 2.5rem;
 	font-weight: lighter;
+	text-transform: lowercase;
 }
 
 h3{
 	font-size:1.5rem;
 	font-weight: lighter;
+	text-transform: lowercase;
 
 }
 
@@ -99,6 +102,11 @@ p.paragraphStyle{
 	width: 60%;
 	margin-left: 3%;
 	line-height: 1.4;
+}
+p.bio{
+	width: 60%;
+	line-height: 1.4;
+	color:#566573 ;
 }
 
 li{
@@ -210,6 +218,11 @@ a.navbutton4:hover{
 	color: black;
 }
 
+
+h1.name{
+	margin-top: 150px;
+
+}
 
 
 
