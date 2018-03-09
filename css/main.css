@@ -7,6 +7,7 @@ section{
 }
 
 body{
+	margin:0;
 	padding-left: 30%;
 }
 .button_sample{
@@ -225,12 +226,68 @@ h1.name{
 }
 
 
+section.project1{
+	background-color: #D5D8DC ;
+	margin:0;
+	width: 200px;
+	height:200px;
+	position: fixed;
+	right:0;
+	top:150px;
+	z-index: 1;
+	transition-property: width;
+	transition-duration: 1s;
+}
 
+section.project2{
+	background-color: #ABB2B9;
+	margin:0;
+	width: 180px;
+	height:200px;
+	position: fixed;
+	right:0;
+	top:320px;
+	z-index: 2;
+	transition-property: width;
+	transition-duration: 1s;
+}
 
+section.project1:hover{
+	width: 600px;
+}
+section.project2:hover{
+	width: 600px;
+}
 
+figure.project1{
+	margin:0;
+	display: inline-block;
+	width: 100%;
+}
+figure.project1{
+	margin:0;
+	display: inline-block;
+	width: 100%;
+}
 
+img.project1{
+	display: inline-block;
+	margin:10px;
+	width: 190px;
+	height: 180px;
+	margin-right: 0;
+}
 
+figure.project{
+	width: 60%;
+	display: inline-block;;
+	margin:10px;
+	margin-left: 0;
+}
 
-
-
+img.project{
+	display: inline-block;
+	margin:0;
+	width: 100%;
+}
 
