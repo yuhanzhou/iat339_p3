@@ -108,6 +108,35 @@ p.bio{
 	width: 60%;
 	line-height: 1.4;
 	color:#566573 ;
+	margin-top: 80px;
+	display: inline-block;
+}
+
+h3.bio{
+	width: 60%;
+	line-height: 1.4;
+	color:#566573 ;
+	margin-top: 80px;
+	display: inline-block;
+}
+
+p.home{
+	margin-top: 80px;
+	width: 60%;
+	line-height: 1.4;
+	color:#566573 ;	
+	display: inline-block;
+}
+a.home{
+
+	text-decoration: none;
+	color: #D5D8DC;
+
+}
+
+a.home:hover{
+	color: #1C2833;
+	transform: translateY(2px);
 }
 
 li{
@@ -290,4 +319,32 @@ img.project{
 	margin:0;
 	width: 100%;
 }
+
+
+section.photo{
+	margin:0;
+	width: 250px;
+	height:50px;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	background-color: #ABB2B9;
+	position: absolute;
+	top:0;
+	right:80px;
+	transition-property: height;
+	transition-duration: 1s;
+
+}
+
+h3.photo{
+	color:white;
+	position: absolute;
+	left:25px;
+	bottom: 0px;
+}
+section.photo:hover{
+	height: 300px;
+}
+
 
