@@ -10,6 +10,78 @@ body{
 	margin:0;
 	padding-left: 30%;
 }
+
+
+
+a.bookmark1{
+	background-color: #AED6F1;
+	color:white;
+	text-align: left;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1rem 0.5rem;
+	width: 130px;
+	transition-property: width;
+	transition-duration: 1s;
+	z-index: 4;
+	position: fixed;
+	top:148px;
+	right:0;
+
+}
+
+a.bookmark1:hover{
+	width: 200px;
+	background-color:#3498DB;
+	color: black;
+}
+
+a.bookmark2{
+	background-color: #A3E4D7 ;
+	color:white;
+	text-align: left;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1rem 0.5rem;
+	width: 120px;
+	transition-property: width;
+	transition-duration: 1s;
+	z-index: 4;
+	position: fixed;
+	top:188px;
+	right:0;
+
+}
+
+a.bookmark2:hover{
+	width: 200px;
+	background-color:#1ABC9C ;
+	color: black;
+}
+a.bookmark3{
+	background-color: #F5B7B1  ;
+	color:white;
+	text-align: left;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1rem 0.5rem;
+	width: 110px;
+	transition-property: width;
+	transition-duration: 1s;
+	z-index: 4;
+	position: fixed;
+	top:228px;
+	right:0;
+
+}
+
+a.bookmark3:hover{
+	width: 200px;
+	background-color:#CB4335  ;
+	color: black;
+}
+
+
 .button_sample{
 	background-color: white;
 	color:black;
@@ -254,7 +326,9 @@ h1.name{
 
 }
 
-
+h2.projectTitle{
+	margin-top: 150px;
+}
 section.project1{
 	background-color: #D5D8DC ;
 	margin:0;
@@ -347,4 +421,129 @@ section.photo:hover{
 	height: 300px;
 }
 
+
+@media screen and (max-width:900px){
+	body{
+		padding-left: 40%;
+	}
+	p.home{
+		width: 80%;
+	}
+	p.bio{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	body{
+		padding-left: 5%;
+	}
+	nav.nav1{
+
+		width: 100%;
+		display: inline-block;
+		padding: 0;
+		position: fixed;
+		top:0;
+		left:0;
+	}
+	ul.nav1{
+		margin:0;
+	}
+
+	a.navbutton1{
+		background-color:  #D5D8DC ;
+		color:white;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		padding-right: 0;
+		padding-left: 0;
+		width: 50%;
+		transition-property: width;
+		transition-duration: 1s;
+		z-index: 1;
+
+	}
+	a.navbutton1:hover{
+		width: 50%;
+		background-color:  #EAECEE  ;
+		color: black;
+	}
+
+	a.navbutton2{
+		background-color: #ABB2B9 ;
+		color:white;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		padding-left: 0;
+		padding-right: 0;
+		width: 50%;
+		transition-property: width;
+		transition-duration: 1s;
+		z-index: 1;
+		position: absolute;
+		top:0;
+		right:0;
+
+	}
+	a.navbutton2:hover{
+		width: 50%;
+		background-color: #EAECEE ;
+		color: black;
+	}
+
+	a.navbutton3{
+		background-color: #808B96   ;
+		color:white;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		padding-right: 0;
+		padding-left: 0;
+		width: 50%;
+		transition-property: width;
+		transition-duration: 1s;
+		z-index: 1;
+		position: absolute;
+		top:51px;
+
+	}
+	a.navbutton3:hover{
+		width: 50%;
+		background-color: #EAECEE  ;
+		color: black;
+	}
+
+	a.navbutton4{
+		background-color: #566573 ;
+		color:white;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		padding-right: 0;
+		padding-left: 0;
+		width: 50%;
+		transition-property: width;
+		transition-duration: 1s;
+		z-index: 1;
+		position: absolute;
+		top:51px;
+		right: 0;
+
+	}
+	a.navbutton4:hover{
+		width: 50%;
+		background-color: #EAECEE  ;
+		color: black;
+	}
+	p.home{
+		width: 95%;
+	}
+	p.bio{
+		width: 95%;
+	}
+
+}
 
