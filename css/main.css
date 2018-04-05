@@ -26,6 +26,10 @@ body.contact_page{
 	background-color:#ccffff;
 }
 
+body.projectsample{
+	background-color: #ffffe6;
+}
+
 section.projectarrow{
 	margin:0;
 }
