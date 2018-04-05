@@ -12,6 +12,20 @@ body{
 	padding-left: 30%;
 }
 
+
+body.home_page{
+	background-color:#cceeff;
+}
+body.about_page{
+	background-color:#e6ffe6;
+}
+body.project_page{
+	background-color:#fff2e6;
+}
+body.contact_page{
+	background-color:#ccffff;
+}
+
 section.projectarrow{
 	margin:0;
 }
@@ -26,6 +40,41 @@ img.projectarrow{
 	width:100%;
 }
 
+section.character{
+	position: absolute;
+	bottom:0px;
+	right:5%;
+	margin:0;
+	width:15%;
+
+}
+
+figure.character{
+	width:100%;
+	margin:0;
+}
+
+img.character{
+	width: 100%;
+}
+
+section.smileface{
+	position: absolute;
+	bottom:5%;
+	right:10%;
+	margin:0;
+	width:15%;
+
+}
+
+figure.smileface{
+	width:100%;
+	margin:0;
+}
+
+img.smileface{
+	width: 100%;
+}
 
 /*a.intext and a.intext :after code is I learn from a sample of IAT352 tutorial, the original code is :
 
@@ -90,7 +139,7 @@ a.intext:hover:after {
 
 
 a.bookmark1{
-	background-color: #AED6F1;
+	background-color:#cceeff;
 	color:white;
 	text-align: left;
 	text-decoration: none;
@@ -222,7 +271,7 @@ li{
 	padding-left: 10px;
 }
 
-nav.nav1{
+nav.nav_bar{
 
 	width: 200px;
 	display: inline-block;
@@ -231,12 +280,12 @@ nav.nav1{
 	top:200px;
 	left:0;
 }
-ul.nav1{
+ul.nav_bar{
 	width: 100%;
 	display: inline-block;
 	padding-left: 0;
 }
-li.nav1{
+li.nav_bar{
 	width: 100%;
 	display: inline-block;
 	margin:0;
@@ -245,8 +294,8 @@ li.nav1{
 }
 
 a.navbutton1{
-	background-color:  #D5D8DC ;
-	color:white;
+	background-color: #99ddff;
+	color:black;
 	text-align: right;
 	text-decoration: none;
 	display: inline-block;
@@ -259,13 +308,13 @@ a.navbutton1{
 }
 a.navbutton1:hover{
 	width: 200px;
-	background-color: #EAECEE  ;
-	color: black;
+	background-color: #0099e6;
+	color: white;
 }
 
 a.navbutton2{
-	background-color: #ABB2B9 ;
-	color:white;
+	background-color: #99ffcc;
+	color:black;
 	text-align: right;
 	text-decoration: none;
 	display: inline-block;
@@ -280,13 +329,13 @@ a.navbutton2{
 }
 a.navbutton2:hover{
 	width: 200px;
-	background-color: #EAECEE  ;
-	color: black;
+	background-color: #4ce600;
+	color: white;
 }
 
 a.navbutton3{
-	background-color: #808B96   ;
-	color:white;
+	background-color:#ffcc99;
+	color:black;
 	text-align: right;
 	text-decoration: none;
 	display: inline-block;
@@ -301,13 +350,13 @@ a.navbutton3{
 }
 a.navbutton3:hover{
 	width: 200px;
-	background-color: #EAECEE  ;
-	color: black;
+	background-color: #ff9933	;
+	color: white;
 }
 
 a.navbutton4{
-	background-color: #566573 ;
-	color:white;
+	background-color:#4dffff;
+	color:black;
 	text-align: right;
 	text-decoration: none;
 	display: inline-block;
@@ -322,8 +371,8 @@ a.navbutton4{
 }
 a.navbutton4:hover{
 	width: 200px;
-	background-color: #EAECEE  ;
-	color: black;
+	background-color: #00e6e6 ;
+	color: white;
 }
 
 
@@ -455,6 +504,9 @@ section.photo:hover{
 	body{
 		padding-left: 40%;
 	}
+	section.character{
+		display: none;
+	}
 	p.home{
 		width: 80%;
 	}
@@ -525,14 +577,23 @@ section.photo:hover{
 
 }
 
+@media screen and (max-width:750px){
+	section.projectarrow{
+		display: none;
+	}
+	section.smileface{
+		display: none;
+	}
+
+}
+
 @media screen and (max-width: 600px){
 	body{
 		padding-left: 5%;
 	}
-	section.projectarrow{
-		display: none;
-	}
-	nav.nav1{
+
+
+	nav.nav_bar{
 
 		width: 100%;
 		display: inline-block;
@@ -541,7 +602,7 @@ section.photo:hover{
 		top:0;
 		left:0;
 	}
-	ul.nav1{
+	ul.nav_bar{
 		margin:0;
 	}
 
