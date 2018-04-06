@@ -13,7 +13,7 @@ body{
 }
 
 
-body.home_page{
+/*body.home_page{
 	background-color:#cceeff;
 }
 body.about_page{
@@ -24,11 +24,11 @@ body.project_page{
 }
 body.contact_page{
 	background-color:#ccffff;
-}
-
+}*/
+/*
 body.projectsample{
 	background-color: #ffffe6;
-}
+}*/
 
 section.projectarrow{
 	margin:0;
@@ -298,7 +298,7 @@ li.nav_bar{
 }
 
 a.navbutton1{
-	background-color: #99ddff;
+	background-color: #3d73a7;
 	color:black;
 	text-align: right;
 	text-decoration: none;
@@ -312,12 +312,12 @@ a.navbutton1{
 }
 a.navbutton1:hover{
 	width: 200px;
-	background-color: #0099e6;
+	/*background-color: #21385e;*/
 	color: white;
 }
 
 a.navbutton2{
-	background-color: #99ffcc;
+	background-color: #76c3e1;
 	color:black;
 	text-align: right;
 	text-decoration: none;
@@ -333,12 +333,12 @@ a.navbutton2{
 }
 a.navbutton2:hover{
 	width: 200px;
-	background-color: #4ce600;
+/*	background-color: #21385e;*/
 	color: white;
 }
 
 a.navbutton3{
-	background-color:#ffcc99;
+	background-color:#aadbe4;
 	color:black;
 	text-align: right;
 	text-decoration: none;
@@ -354,12 +354,12 @@ a.navbutton3{
 }
 a.navbutton3:hover{
 	width: 200px;
-	background-color: #ff9933	;
+/*	background-color: #21385e;*/
 	color: white;
 }
 
 a.navbutton4{
-	background-color:#4dffff;
+	background-color:#c7f4f4;
 	color:black;
 	text-align: right;
 	text-decoration: none;
@@ -375,7 +375,7 @@ a.navbutton4{
 }
 a.navbutton4:hover{
 	width: 200px;
-	background-color: #00e6e6 ;
+/*	background-color: #21385e;*/
 	color: white;
 }
 
