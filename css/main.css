@@ -611,7 +611,7 @@ section.photo:hover{
 	}
 
 	a.navbutton1{
-		background-color:  #D5D8DC ;
+		
 		color:white;
 		text-align: center;
 		text-decoration: none;
@@ -626,12 +626,12 @@ section.photo:hover{
 	}
 	a.navbutton1:hover{
 		width: 50%;
-		background-color:  #EAECEE  ;
+
 		color: black;
 	}
 
 	a.navbutton2{
-		background-color: #ABB2B9 ;
+
 		color:white;
 		text-align: center;
 		text-decoration: none;
@@ -649,12 +649,12 @@ section.photo:hover{
 	}
 	a.navbutton2:hover{
 		width: 50%;
-		background-color: #EAECEE ;
+
 		color: black;
 	}
 
 	a.navbutton3{
-		background-color: #808B96   ;
+	
 		color:white;
 		text-align: center;
 		text-decoration: none;
@@ -671,12 +671,12 @@ section.photo:hover{
 	}
 	a.navbutton3:hover{
 		width: 50%;
-		background-color: #EAECEE  ;
+		
 		color: black;
 	}
 
 	a.navbutton4{
-		background-color: #566573 ;
+
 		color:white;
 		text-align: center;
 		text-decoration: none;
@@ -694,7 +694,7 @@ section.photo:hover{
 	}
 	a.navbutton4:hover{
 		width: 50%;
-		background-color: #EAECEE  ;
+	
 		color: black;
 	}
 	p.home{
