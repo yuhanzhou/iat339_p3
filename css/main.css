@@ -612,6 +612,17 @@ section.photo:hover{
 		padding-left: 5%;
 	}
 
+	h2.project1{
+
+		font-size: 1rem;
+	}
+	div.project1{
+		display: inline-block;
+	}
+	p.project1{
+		font-size: 0.6rem;
+		
+	}
 
 	nav.nav_bar{
 
@@ -744,6 +755,7 @@ section.photo:hover{
 	section.project1{
 		background-color: #D5D8DC ;
 		margin:0;
+	
 		width: 100%;
 		height: 200px;
 		display: inline-block;
@@ -758,7 +770,9 @@ section.photo:hover{
 	section.project2{
 		background-color: #ABB2B9;
 		margin:0;
+	
 		width: 100%;
+		
 		height:200px;
 		display:block;
 		position: absolute;		
@@ -782,14 +796,14 @@ section.photo:hover{
 		margin-top: 0;
 		display: inline-block;
 		position: absolute;
-		left: 220px;
+		left: 70%;
 		top:10px;
 		color: white;
 
 	}
 	p.project1{
-		left:220px;
-		width: 45%;
+		left:70%;
+		width: 25%;
 	}
 	ol.numList_sample{
 		width: 95%;
