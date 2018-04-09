@@ -234,6 +234,10 @@ h3{
 
 }
 
+figcaption{
+	font-size: 0.5rem;
+	color:#566573 ;
+}
 
 p.bio{
 	width: 60%;
@@ -243,7 +247,17 @@ p.bio{
 	display: inline-block;
 }
 
-h3.bio{
+h2.bio{
+	font-size:1.5rem;
+	width: 60%;
+	line-height: 1.4;
+	color:#566573 ;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+h2.sectionTitle{
+	font-size:1.5rem;
 	width: 60%;
 	line-height: 1.4;
 	color:#566573 ;
@@ -385,7 +399,7 @@ h1.name{
 
 }
 
-h2.projectTitle{
+h1.projectTitle{
 	margin-top: 150px;
 }
 section.project1{
@@ -429,12 +443,14 @@ figure.project1{
 	width: 100%;
 }
 
-h3.project1{
+h2.project1{
 	display: inline-block;
 	position: absolute;
 	left: 250px;
 	top:0;
 	color: white;
+	font-size: 1.5rem;
+
 }
 
 p.project1{
@@ -568,7 +584,7 @@ section.photo:hover{
 		background-color:#808B96  ;
 
 	}
-	h3.project1{
+	h2.project1{
 		margin-top: 0;
 		display: inline-block;
 		position: absolute;
@@ -762,7 +778,7 @@ section.photo:hover{
 		background-color:#808B96  ;
 
 	}
-	h3.project1{
+	h2.project1{
 		margin-top: 0;
 		display: inline-block;
 		position: absolute;
